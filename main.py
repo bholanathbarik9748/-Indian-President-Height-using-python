@@ -18,12 +18,12 @@ print(f"Standard Deviation of President Heights: {height.std()}")
 print(f"Maximum of President Heights: {height.max()}")
 print(f"Minimum of President Heights: {height.min()}")
 
-#
+#percentil,Median,percentile aggregation operation reduced the entire array to a single summarizing value
 print("25th percentile =", np.percentile(height, 25))
 print("Median =", np.median(height))
 print("75th percentile =", np.percentile(height, 75))
 
-#
+# crete plt
 sns.set()
 plt.hist(height)
 plt.title("Height Distribution of Presidents of USA")
